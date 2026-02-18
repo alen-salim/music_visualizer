@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SelectionGrid from "./components/SelectionGrid";
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
           </p>
         </div>
       </header>
-      <main className="max-w-7xl mx-auto px-6 pb-24"></main>
+      <main className="max-w-7xl mx-auto px-6 pb-24">
+        <SelectionGrid />
+      </main>
     </div>
   );
 }
